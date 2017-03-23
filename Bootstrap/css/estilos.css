@@ -1,0 +1,73 @@
+body{
+background: #2E2E2E;
+color: #D8D8D8;
+}
+
+header{
+background: black;
+color: white;
+}
+
+.imglogo {
+  width: 50%;
+}
+.imglogo img{
+  width: 100%;
+}
+nav{
+background: #1C1C1C;
+margin:0;
+display: flex;
+justify-content: space-around;
+}
+header .redes-sociales{
+  display: flex;
+  align-items: flex-end;
+}
+
+
+
+/*------------------------------------------*/
+.main{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.post {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+
+}
+.post .thumb{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 40%;
+}
+.xthumb{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 40%;
+}
+.post .thumb img{
+  width: 100%;
+}
+.redes-sociales{
+  position:
+}
+/*-----media ------*/
+/*@media screem and (max-width: 768px) {
+  .post .thumb{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}*/
+
+@media  (max-width: 768px) {
+    .xthumb{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}

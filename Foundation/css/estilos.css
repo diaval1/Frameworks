@@ -1,0 +1,26 @@
+body {
+background-image: url("../img/fondo.jpg");
+
+color: black;
+
+}
+
+.cabeza{
+  margin-bottom: 10px;
+border-right: solid;
+border-bottom: solid;
+}
+.catalogo a{
+  color: #0B0B61;
+}
+
+.historial{
+  background: #F5A9D0;
+  color:black;
+  margin: 10px;
+
+  list-style: none;
+}
+.historial li{
+  border: 1px solid;
+}
